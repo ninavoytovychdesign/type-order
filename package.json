@@ -1,0 +1,19 @@
+{
+  "name": "type-order",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Figma plugin: typography audit, font unification and text styles from existing designs (EN/UA)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "esbuild": "*",
+    "typescript": "*",
+    "vitest": "*"
+  }
+}
