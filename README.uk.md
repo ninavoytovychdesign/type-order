@@ -71,15 +71,13 @@ npm run check     # типи + тести + збірка
 
 - 32 автотести: ядро (накреслення, групування, назви, звіт), повнота й множина словника UA/EN, і робота з файлом на імітації Figma API (аналіз, заміна шрифтів, створення й привʼязка стилів, скидання правок).
 - Панель відкрито в Chromium з даними, схожими на Numa, обома мовами. Помилок немає, повідомлення до коду плагіна правильні.
-- **У живій Figma ще не запускався.** Першим варто перевірити на копії файлу: аналіз сторінки, заміну одного шрифту, створення 2–3 стилів і звіт на канвасі.
+- Перший запуск у Figma варто робити на копії файлу: аналіз сторінки, заміну одного шрифту, створення 2–3 стилів і звіт на канвасі.
 
-## Перед публікацією в Community
+## Community
 
-1. Назва «Type Order» вільна в Community (перевірено 04.11.2026).
-2. При першій публікації Figma видасть справжній `id` – його треба вписати в `manifest.json` замість `type-order-local-dev`.
-3. Потрібні іконка 128×128, обкладинка 1920×1080 і опис.
+Подано в Figma Community, очікує на рев'ю. Іконка 128×128 і обкладинка 1920×1080 – у `assets/`.
 
-Чернетка опису (EN):
+Опис (EN):
 
 > Type Order audits the typography in your designs and helps you clean it up. See every font, size, weight and line height in one report, find text without styles or with overridden styles, replace several fonts with one, and turn the text you already have into a set of text styles – with names by role or code-style. Works offline. Nothing changes until you confirm. Interface in English and Ukrainian.
 
